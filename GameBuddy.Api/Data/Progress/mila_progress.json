@@ -1,0 +1,90 @@
+{
+  "nickname": "mila",
+  "countries": [
+    {
+      "country": "Japan",
+      "totalCorrectAnswers": 14,
+      "sessionsCompleted": 3,
+      "averageSuccessRate": 93.33
+    },
+    {
+      "country": "South Korea",
+      "totalCorrectAnswers": 13,
+      "sessionsCompleted": 3,
+      "averageSuccessRate": 86.67
+    },
+    {
+      "country": "China",
+      "totalCorrectAnswers": 12,
+      "sessionsCompleted": 3,
+      "averageSuccessRate": 80.0
+    },
+    {
+      "country": "Thailand",
+      "totalCorrectAnswers": 10,
+      "sessionsCompleted": 2,
+      "averageSuccessRate": 100.0
+    },
+    {
+      "country": "Vietnam",
+      "totalCorrectAnswers": 9,
+      "sessionsCompleted": 2,
+      "averageSuccessRate": 90.0
+    }
+  ],
+  "quizSessions": [
+    {
+      "sessionId": "sess-m001",
+      "countriesCovered": ["Japan", "South Korea", "China", "Thailand", "Vietnam"],
+      "date": "2026-02-05T09:20:15Z",
+      "totalQuestions": 5,
+      "correctAnswers": 5,
+      "successRate": 100.0
+    },
+    {
+      "sessionId": "sess-m002",
+      "countriesCovered": ["South Korea", "China", "Thailand", "Japan", "Vietnam"],
+      "date": "2026-02-06T10:15:30Z",
+      "totalQuestions": 5,
+      "correctAnswers": 4,
+      "successRate": 80.0
+    },
+    {
+      "sessionId": "sess-m003",
+      "countriesCovered": ["China", "Thailand", "Vietnam", "Japan", "South Korea"],
+      "date": "2026-02-06T14:20:45Z",
+      "totalQuestions": 5,
+      "correctAnswers": 4,
+      "successRate": 80.0
+    },
+    {
+      "sessionId": "sess-m004",
+      "countriesCovered": ["Japan", "South Korea", "Thailand", "China", "Vietnam"],
+      "date": "2026-02-07T11:30:20Z",
+      "totalQuestions": 5,
+      "correctAnswers": 4,
+      "successRate": 80.0
+    },
+    {
+      "sessionId": "sess-m005",
+      "countriesCovered": ["South Korea", "Vietnam", "China", "Thailand", "Japan"],
+      "date": "2026-02-07T15:45:50Z",
+      "totalQuestions": 5,
+      "correctAnswers": 5,
+      "successRate": 100.0
+    },
+    {
+      "sessionId": "sess-m006",
+      "countriesCovered": ["Thailand", "Vietnam", "Japan", "South Korea", "China"],
+      "date": "2026-02-08T09:10:25Z",
+      "totalQuestions": 5,
+      "correctAnswers": 5,
+      "successRate": 100.0
+    }
+  ],
+  "totalQuizzesCompleted": 6,
+  "overallAverageSuccessRate": 90.0,
+  "lastUpdated": "2026-02-08T09:10:25.8934672Z"
+}
+
+

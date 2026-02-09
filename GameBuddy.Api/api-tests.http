@@ -1,0 +1,184 @@
+### GameBuddy API Tests
+### Base URL for local development
+@baseUrl = https://localhost:5001
+
+###
+
+### Health Check
+GET {{baseUrl}}/health
+
+###
+
+### Get All Kids
+GET {{baseUrl}}/kids
+
+###
+
+### Get Kid Profile - Alex
+GET {{baseUrl}}/kids/alex/profile
+
+###
+
+### Get Kid Profile - Mila
+GET {{baseUrl}}/kids/mila/profile
+
+###
+
+### Get Kid Profile - Sam
+GET {{baseUrl}}/kids/sam/profile
+
+###
+
+### Get Kid Profile - Unknown Kid (should return 404)
+GET {{baseUrl}}/kids/unknown/profile
+
+###
+
+### Get Kid Preferences - Alex
+GET {{baseUrl}}/kids/alex/preferences
+
+###
+
+### Get Kid Preferences - Mila
+GET {{baseUrl}}/kids/mila/preferences
+
+###
+
+### Get Kid Preferences - Sam
+GET {{baseUrl}}/kids/sam/preferences
+
+###
+
+### Get Kid Preferences - Unknown Kid (should return 404)
+GET {{baseUrl}}/kids/unknown/preferences
+
+###
+
+### Get Kid Progress - Alex
+GET {{baseUrl}}/kids/alex/progress
+
+###
+
+### Get Kid Progress - Mila
+GET {{baseUrl}}/kids/mila/progress
+
+###
+
+### Get Kid Progress - Sam
+GET {{baseUrl}}/kids/sam/progress
+
+###
+
+### Get Kid Progress - Unknown Kid (returns empty progress)
+GET {{baseUrl}}/kids/unknown/progress
+
+###
+
+### Get All Kids Progress
+GET {{baseUrl}}/progress/all
+
+###
+
+### Record Quiz Completion - Alex (Single Country)
+POST {{baseUrl}}/kids/alex/quiz-completion
+Content-Type: application/json
+
+{
+  "countriesCovered": ["France"],
+  "correctAnswers": 1,
+  "totalQuestions": 1
+}
+
+###
+
+### Record Quiz Completion - Alex (Multiple Countries)
+POST {{baseUrl}}/kids/alex/quiz-completion
+Content-Type: application/json
+
+{
+  "countriesCovered": ["Germany", "Italy", "Spain"],
+  "correctAnswers": 2,
+  "totalQuestions": 3
+}
+
+###
+
+### Record Quiz Completion - Mila (5 countries quiz)
+POST {{baseUrl}}/kids/mila/quiz-completion
+Content-Type: application/json
+
+{
+  "countriesCovered": ["Canada", "Mexico", "Brazil", "Argentina", "Chile"],
+  "correctAnswers": 4,
+  "totalQuestions": 5
+}
+
+###
+
+### Record Quiz Completion - Invalid (Non-existent kid)
+POST {{baseUrl}}/kids/unknown/quiz-completion
+Content-Type: application/json
+
+{
+  "countriesCovered": ["France"],
+  "correctAnswers": 1,
+  "totalQuestions": 1
+}
+
+###
+
+### Record Quiz Completion - Invalid (Empty countries array)
+POST {{baseUrl}}/kids/alex/quiz-completion
+Content-Type: application/json
+
+{
+  "countriesCovered": [],
+  "correctAnswers": 1,
+  "totalQuestions": 1
+}
+
+###
+
+### Record Quiz Completion - Invalid (Correct answers exceeds total)
+POST {{baseUrl}}/kids/alex/quiz-completion
+Content-Type: application/json
+
+{
+  "countriesCovered": ["France"],
+  "correctAnswers": 5,
+  "totalQuestions": 3
+}
+
+###
+
+### Record Quiz Completion - Invalid (Negative correct answers)
+POST {{baseUrl}}/kids/alex/quiz-completion
+Content-Type: application/json
+
+{
+  "countriesCovered": ["France"],
+  "correctAnswers": -1,
+  "totalQuestions": 1
+}
+
+###
+
+### Reset Kid Progress - Alex
+DELETE {{baseUrl}}/kids/alex/progress
+
+###
+
+### Reset Kid Progress - Mila
+DELETE {{baseUrl}}/kids/mila/progress
+
+###
+
+### Reset Kid Progress - Sam
+DELETE {{baseUrl}}/kids/sam/progress
+
+###
+
+### Reset Kid Progress - Unknown Kid (should return 404)
+DELETE {{baseUrl}}/kids/unknown/progress
+
+###

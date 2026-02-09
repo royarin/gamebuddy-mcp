@@ -1,0 +1,28 @@
+{
+  "children": [
+    {
+      "nickname": "alex",
+      "name": "Alex",
+      "age": 8,
+      "preferredDifficulty": "easy",
+      "preferredQuizLength": 3,
+      "topicsOfInterest": ["geography", "spelling"]
+    },
+    {
+      "nickname": "mila",
+      "name": "Mila",
+      "age": 10,
+      "preferredDifficulty": "medium",
+      "preferredQuizLength": 5,
+      "topicsOfInterest": ["math", "science", "geography"]
+    },
+    {
+      "nickname": "sam",
+      "name": "Sam",
+      "age": 7,
+      "preferredDifficulty": "easy",
+      "preferredQuizLength": 4,
+      "topicsOfInterest": ["animals", "colors"]
+    }
+  ]
+}

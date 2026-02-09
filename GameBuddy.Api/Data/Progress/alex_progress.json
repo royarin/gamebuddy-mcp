@@ -1,0 +1,122 @@
+{
+  "nickname": "alex",
+  "countries": [
+    {
+      "country": "France",
+      "totalCorrectAnswers": 10,
+      "sessionsCompleted": 4,
+      "averageSuccessRate": 83.33
+    },
+    {
+      "country": "Spain",
+      "totalCorrectAnswers": 7,
+      "sessionsCompleted": 3,
+      "averageSuccessRate": 77.78
+    },
+    {
+      "country": "Italy",
+      "totalCorrectAnswers": 6,
+      "sessionsCompleted": 3,
+      "averageSuccessRate": 66.67
+    },
+    {
+      "country": "Germany",
+      "totalCorrectAnswers": 9,
+      "sessionsCompleted": 3,
+      "averageSuccessRate": 100.0
+    },
+    {
+      "country": "Portugal",
+      "totalCorrectAnswers": 5,
+      "sessionsCompleted": 2,
+      "averageSuccessRate": 83.33
+    }
+  ],
+  "quizSessions": [
+    {
+      "sessionId": "sess-a001",
+      "countriesCovered": ["France", "Spain", "Italy"],
+      "date": "2026-02-06T10:15:30Z",
+      "totalQuestions": 3,
+      "correctAnswers": 2,
+      "successRate": 66.67
+    },
+    {
+      "sessionId": "sess-a002",
+      "countriesCovered": ["France", "Germany", "Italy"],
+      "date": "2026-02-07T14:20:45Z",
+      "totalQuestions": 3,
+      "correctAnswers": 3,
+      "successRate": 100.0
+    },
+    {
+      "sessionId": "sess-a003",
+      "countriesCovered": ["Spain", "Italy", "Germany"],
+      "date": "2026-02-07T15:10:20Z",
+      "totalQuestions": 3,
+      "correctAnswers": 2,
+      "successRate": 66.67
+    },
+    {
+      "sessionId": "sess-a004",
+      "countriesCovered": ["Italy", "Germany", "Portugal"],
+      "date": "2026-02-08T09:30:15Z",
+      "totalQuestions": 3,
+      "correctAnswers": 2,
+      "successRate": 66.67
+    },
+    {
+      "sessionId": "sess-a005",
+      "countriesCovered": ["Germany", "Portugal", "France"],
+      "date": "2026-02-08T11:45:30Z",
+      "totalQuestions": 3,
+      "correctAnswers": 3,
+      "successRate": 100.0
+    },
+    {
+      "sessionId": "sess-a006",
+      "countriesCovered": ["France", "Italy", "Germany"],
+      "date": "2026-02-08T16:20:40Z",
+      "totalQuestions": 3,
+      "correctAnswers": 2,
+      "successRate": 66.67
+    },
+    {
+      "sessionId": "sess-a007",
+      "countriesCovered": ["Spain", "Italy", "Portugal"],
+      "date": "2026-02-09T08:15:25Z",
+      "totalQuestions": 3,
+      "correctAnswers": 2,
+      "successRate": 66.67
+    },
+    {
+      "sessionId": "sess-a008",
+      "countriesCovered": ["Germany", "Spain", "France"],
+      "date": "2026-02-09T10:30:50Z",
+      "totalQuestions": 3,
+      "correctAnswers": 3,
+      "successRate": 100.0
+    },
+    {
+      "sessionId": "sess-a009",
+      "countriesCovered": ["France", "Germany", "Spain"],
+      "date": "2026-02-09T12:15:20Z",
+      "totalQuestions": 3,
+      "correctAnswers": 2,
+      "successRate": 66.67
+    },
+    {
+      "sessionId": "sess-a010",
+      "countriesCovered": ["Italy", "Germany", "France"],
+      "date": "2026-02-09T14:45:35Z",
+      "totalQuestions": 3,
+      "correctAnswers": 2,
+      "successRate": 66.67
+    }
+  ],
+  "totalQuizzesCompleted": 10,
+  "overallAverageSuccessRate": 79.34,
+  "lastUpdated": "2026-02-09T14:45:35.0000000Z"
+}
+
+
