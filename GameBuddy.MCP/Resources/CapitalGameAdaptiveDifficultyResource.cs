@@ -272,8 +272,11 @@ IMPLEMENTATION:
 2. When count reaches 2 → Increment level
 3. Reset counter to 0 on any incorrect answer
 4. Check child's historical performance data before selecting countries
+   - Fetch progress history to determine success rates and streaks for each country
 5. Filter out countries with >80% success rate or recent perfect streaks
 6. Display current level and available countries to AI Agent
-7. Safe progression ensures child always learns before advancing");
+7. Provide encouraging feedback when level changes:
+   - Example: ""Great job! You're moving to the next level. The next question will be a bit more challenging, but I know you can do it!""
+8. Safe progression ensures child always learns before advancing");
     }
 }
